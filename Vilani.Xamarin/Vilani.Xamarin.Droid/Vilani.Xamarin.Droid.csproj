@@ -21,6 +21,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+  <AndroidSdkBuildToolsVersion>23.0.3</AndroidSdkBuildToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
