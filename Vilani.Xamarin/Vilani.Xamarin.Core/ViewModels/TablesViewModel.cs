@@ -24,7 +24,7 @@ namespace Vilani.Xamarin.Core.ViewModels
             Name = name;
             IsSingleValid = true;
             TableName = "Table name is ";
-            Task.Run(() => test());
+            Task.Run(() => LoadTables());
             TabChanged += TablesViewModel_TabChanged;
         }
 
@@ -45,7 +45,7 @@ namespace Vilani.Xamarin.Core.ViewModels
                 }));
         });
 
-        public async void test()
+        public async void LoadTables()
         {
             Tables = new ObservableCollection<TableVM>(await new TableService().GetTables());
             foreach (var table in Tables)
@@ -57,13 +57,12 @@ namespace Vilani.Xamarin.Core.ViewModels
 
         private void Table_onTableSelected(object sender, TableVM table)
         {
-            TabChangeds(new NavigationEventArgs(this,
-               new NavigationArgs
-               {
-                   Sender = Tabs.Tables,
-                   Destination = Tabs.Menu,
-                   Data = this
-               }));
+            TabChangeds(new NavigationEventArgs(this, new NavigationArgs
+            {
+                Sender = Tabs.Tables,
+                Destination = Tabs.Menu,
+                Data = table
+            }));
         }
 
         private string _tablename;

@@ -9,7 +9,25 @@ namespace Vilani.Xamarin.Core.ViewModels
         public delegate void ChangeTab(object sender, NavigationEventArgs tab);
         public event ChangeTab TabChanged;
 
+        private List<TabsBaseViewModel> _myViewModels;
+        public List<TabsBaseViewModel> MyViewModels
+        {
+            get { return _myViewModels; }
+            set
+            {
+                _myViewModels = value;
+                RaisePropertyChanged(() => MyViewModels);
+            }
+        }
+
+        public SharedDataViewModel SharedData { get; set; }
         public MainViewModel()
+        {
+            InitTabsViewModel();
+            SharedData = new SharedDataViewModel();
+        }
+
+        private void InitTabsViewModel()
         {
             MyViewModels = new List<TabsBaseViewModel>()
             {
@@ -27,15 +45,6 @@ namespace Vilani.Xamarin.Core.ViewModels
             TabChanged(this, tabData);
         }
 
-        private List<TabsBaseViewModel> _myViewModels;
-        public List<TabsBaseViewModel> MyViewModels
-        {
-            get { return _myViewModels; }
-            set
-            {
-                _myViewModels = value;
-                RaisePropertyChanged(() => MyViewModels);
-            }
-        }
+
     }
 }

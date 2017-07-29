@@ -10,19 +10,23 @@ using Vilani.Xamarin.Core.ViewModels;
 
 using System.Collections.Generic;
 using Vilani.Xamarin.Droid.Views.Fragments;
-
+using Vilani.Xamarin.Droid.Common;
 
 namespace Vilani.Xamarin.Droid.Views
 {
     [Activity(ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainView : MvxCachingFragmentCompatActivity<MainViewModel>
     {
+        public TabHandler TabNavigationHandler { get; set; }
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.page_main);
 
             var toolbar = FindViewById<Toolbar>(Resource.Id.main_toolbar);
+            var tabLayout = FindViewById<TabLayout>(Resource.Id.main_tablayout);
+            TabNavigationHandler = new TabHandler(tabLayout, ViewModel);
+
             SetSupportActionBar(toolbar);
             SupportActionBar.SetDisplayHomeAsUpEnabled(false);
             SupportActionBar.Title = "www.vilanimart.com";
@@ -40,18 +44,15 @@ namespace Vilani.Xamarin.Droid.Views
             //If you want to start at specific tab
             //viewPager.SetCurrentItem(ViewModel.CurrentPage, false);
 
-            var tabLayout = FindViewById<TabLayout>(Resource.Id.main_tablayout);
-            tabLayout.SetupWithViewPager(viewPager);
+            //var tabLayout = FindViewById<TabLayout>(Resource.Id.main_tablayout);
+
+            TabNavigationHandler.MainTabLayout.SetupWithViewPager(viewPager);
 
         }
 
         private void ViewModel_TabChanged(object sender, Vilani.Xamarin.Core.Comman.NavigationEventArgs tab)
         {
-            TabLayout tabLayout = FindViewById<TabLayout>(Resource.Id.main_tablayout);
-            TabLayout.Tab tabContent = tabLayout.GetTabAt((int)tab.Data.Destination);
-            tabContent.Select();
+            TabNavigationHandler.SetTab((int)tab.Data.Destination);
         }
-
-
     }
 }

@@ -50,6 +50,7 @@
     <Compile Include="ViewModels\ChildOfChildViewModel.cs" />
     <Compile Include="ViewModels\ChildViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\SharedDataViewModel.cs" />
     <Compile Include="ViewModels\TablesViewModel.cs" />
     <Compile Include="ViewModels\TabsBaseViewModel.cs" />
   </ItemGroup>
