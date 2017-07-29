@@ -21,10 +21,10 @@ namespace Vilani.Xamarin.Core.ViewModels
             }
         }
 
-        public delegate void NavigateToTab(object sender, Tabs tab);
+        public delegate void NavigateToTab(object sender, NavigationEventArgs tab);
         public event NavigateToTab TabChanged;
 
-        internal void TabChangeds(Tabs tab)
+        internal void TabChangeds(NavigationEventArgs tab)
         {
             TabChanged(this, tab);
         }

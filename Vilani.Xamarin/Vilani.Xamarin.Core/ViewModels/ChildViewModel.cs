@@ -14,7 +14,7 @@ namespace Vilani.Xamarin.Core.ViewModels
 
         public ICommand GoToChildCommand => new MvxCommand(() =>
         {
-            TabChangeds(Tabs.Orders);
+            TabChangeds(new NavigationEventArgs());
         });
     }
 }

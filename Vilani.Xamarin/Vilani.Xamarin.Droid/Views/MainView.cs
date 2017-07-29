@@ -11,6 +11,7 @@ using Vilani.Xamarin.Core.ViewModels;
 using System.Collections.Generic;
 using Vilani.Xamarin.Droid.Views.Fragments;
 
+
 namespace Vilani.Xamarin.Droid.Views
 {
     [Activity(ScreenOrientation = ScreenOrientation.Portrait)]
@@ -44,13 +45,13 @@ namespace Vilani.Xamarin.Droid.Views
 
         }
 
-        private void ViewModel_TabChanged(object sender, Core.Comman.Tabs tab)
+        private void ViewModel_TabChanged(object sender, Vilani.Xamarin.Core.Comman.NavigationEventArgs tab)
         {
             TabLayout tabLayout = FindViewById<TabLayout>(Resource.Id.main_tablayout);
-            TabLayout.Tab tabContent = tabLayout.GetTabAt((int)tab);
+            TabLayout.Tab tabContent = tabLayout.GetTabAt((int)tab.Data.Destination);
             tabContent.Select();
         }
 
-      
+
     }
 }

@@ -28,7 +28,7 @@ namespace Vilani.Xamarin.Core.ViewModels
             TabChanged += TablesViewModel_TabChanged;
         }
 
-        private void TablesViewModel_TabChanged(object sender, Tabs tab)
+        private void TablesViewModel_TabChanged(object sender, NavigationEventArgs tab)
         {
 
         }
@@ -36,7 +36,13 @@ namespace Vilani.Xamarin.Core.ViewModels
         public ICommand GoToMenu => new MvxCommand(() =>
         {
             var currentPage = 10; //Your logic here
-            TabChangeds(Tabs.Menu);
+            TabChangeds(new NavigationEventArgs(this,
+                new NavigationArgs
+                {
+                    Sender = Tabs.Tables,
+                    Destination = Tabs.Menu,
+                    Data = ""
+                }));
         });
 
         public async void test()
@@ -46,15 +52,18 @@ namespace Vilani.Xamarin.Core.ViewModels
             {
                 table.onTableSelected += Table_onTableSelected;
             }
-            //Tables = new ObservableCollection<TableVM>() {
-            //    new TableVM(){ Name="table1"},
-            //    new TableVM(){ Name="table2"},
-            //};
+
         }
 
         private void Table_onTableSelected(object sender, TableVM table)
         {
-            
+            TabChangeds(new NavigationEventArgs(this,
+               new NavigationArgs
+               {
+                   Sender = Tabs.Tables,
+                   Destination = Tabs.Menu,
+                   Data = this
+               }));
         }
 
         private string _tablename;

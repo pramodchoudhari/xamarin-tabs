@@ -38,6 +38,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Comman\NavigationEventArgs.cs" />
     <Compile Include="Comman\TabChangedMessage.cs" />
     <Compile Include="Comman\Tabs.cs" />
     <Compile Include="Converters\BackgroundValueConverter.cs" />
