@@ -65,6 +65,9 @@
     <Reference Include="MvvmCross.Platform, Version=5.0.6.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmCross.Platform.5.0.6\lib\portable-net45+win+wpa81+wp80\MvvmCross.Platform.dll</HintPath>
     </Reference>
+    <Reference Include="MvvmCross.Plugins.Color">
+      <HintPath>..\..\..\..\..\Xamarin\SampleTabsNew\SampleTabs.Droid\obj\Debug\android\assets\MvvmCross.Plugins.Color.dll</HintPath>
+    </Reference>
     <Reference Include="MvvmCross.Plugins.Messenger, Version=5.0.6.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmCross.Plugin.Messenger.5.0.6\lib\portable-net45+win+wpa81+wp80\MvvmCross.Plugins.Messenger.dll</HintPath>
     </Reference>
