@@ -34,6 +34,10 @@ namespace Vilani.Xamarin.Core.ViewModels
         public async void test()
         {
             Tables = new ObservableCollection<TableVM>(await new TableService().GetTables());
+            //Tables = new ObservableCollection<TableVM>() {
+            //    new TableVM(){ Name="table1"},
+            //    new TableVM(){ Name="table2"},
+            //};
         }
 
 

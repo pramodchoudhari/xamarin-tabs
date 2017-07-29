@@ -21,7 +21,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-  <AndroidSdkBuildToolsVersion>23.0.3</AndroidSdkBuildToolsVersion>
+    <AndroidSdkBuildToolsVersion>23.0.3</AndroidSdkBuildToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -152,6 +152,8 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\fragment_table.axml" />
+    <AndroidResource Include="Resources\Layout\grid_item_table.axml" />
+    <AndroidResource Include="Resources\Drawable\button_style.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\Icon.png" />

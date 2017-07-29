@@ -2,10 +2,10 @@
 <resources>
   <style name="SampleTabsTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
     <item name="colorPrimary">@color/primary</item>
-    <item name="colorPrimaryDark">@color/primary_dark</item>
+    <item name="colorPrimaryDark">@color/primaryDark</item>
     <item name="colorAccent">@color/accent</item>
-    <item name="colorControlNormal">@color/primary_text</item>
-    <item name="textColorAlertDialogListItem">@color/primary_text</item>
+    <item name="colorControlNormal">@color/primary</item>
+    <item name="textColorAlertDialogListItem">@color/primary</item>
     <item name="android:windowBackground">@android:color/white</item>
   </style>
 
@@ -16,8 +16,8 @@
   </style>
 
   <style name="SampleTabsTheme.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
-    <item name="colorPrimaryDark">@color/primary_dark</item>
-    <item name="android:navigationBarColor">@color/primary_dark</item>
+    <item name="colorPrimaryDark">@color/primaryDark</item>
+    <item name="android:navigationBarColor">@color/primaryDark</item>
   </style>
 
   <style name="SampleTabsToolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">

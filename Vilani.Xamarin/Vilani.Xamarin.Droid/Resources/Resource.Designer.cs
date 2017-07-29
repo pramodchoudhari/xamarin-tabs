@@ -2577,44 +2577,44 @@ namespace Vilani.Xamarin.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004e
-			public const int abc_background_cache_hint_selector_material_dark = 2131492942;
-			
-			// aapt resource value: 0x7f0c004f
-			public const int abc_background_cache_hint_selector_material_light = 2131492943;
-			
 			// aapt resource value: 0x7f0c0050
-			public const int abc_btn_colored_borderless_text_material = 2131492944;
+			public const int abc_background_cache_hint_selector_material_dark = 2131492944;
 			
 			// aapt resource value: 0x7f0c0051
-			public const int abc_btn_colored_text_material = 2131492945;
+			public const int abc_background_cache_hint_selector_material_light = 2131492945;
 			
 			// aapt resource value: 0x7f0c0052
-			public const int abc_color_highlight_material = 2131492946;
+			public const int abc_btn_colored_borderless_text_material = 2131492946;
 			
 			// aapt resource value: 0x7f0c0053
-			public const int abc_hint_foreground_material_dark = 2131492947;
+			public const int abc_btn_colored_text_material = 2131492947;
 			
 			// aapt resource value: 0x7f0c0054
-			public const int abc_hint_foreground_material_light = 2131492948;
+			public const int abc_color_highlight_material = 2131492948;
+			
+			// aapt resource value: 0x7f0c0055
+			public const int abc_hint_foreground_material_dark = 2131492949;
+			
+			// aapt resource value: 0x7f0c0056
+			public const int abc_hint_foreground_material_light = 2131492950;
 			
 			// aapt resource value: 0x7f0c0001
 			public const int abc_input_method_navigation_guard = 2131492865;
 			
-			// aapt resource value: 0x7f0c0055
-			public const int abc_primary_text_disable_only_material_dark = 2131492949;
-			
-			// aapt resource value: 0x7f0c0056
-			public const int abc_primary_text_disable_only_material_light = 2131492950;
-			
 			// aapt resource value: 0x7f0c0057
-			public const int abc_primary_text_material_dark = 2131492951;
+			public const int abc_primary_text_disable_only_material_dark = 2131492951;
 			
 			// aapt resource value: 0x7f0c0058
-			public const int abc_primary_text_material_light = 2131492952;
+			public const int abc_primary_text_disable_only_material_light = 2131492952;
 			
 			// aapt resource value: 0x7f0c0059
-			public const int abc_search_url_text = 2131492953;
+			public const int abc_primary_text_material_dark = 2131492953;
+			
+			// aapt resource value: 0x7f0c005a
+			public const int abc_primary_text_material_light = 2131492954;
+			
+			// aapt resource value: 0x7f0c005b
+			public const int abc_search_url_text = 2131492955;
 			
 			// aapt resource value: 0x7f0c0002
 			public const int abc_search_url_text_normal = 2131492866;
@@ -2625,35 +2625,38 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0c0004
 			public const int abc_search_url_text_selected = 2131492868;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int abc_secondary_text_material_dark = 2131492954;
-			
-			// aapt resource value: 0x7f0c005b
-			public const int abc_secondary_text_material_light = 2131492955;
-			
 			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_btn_checkable = 2131492956;
+			public const int abc_secondary_text_material_dark = 2131492956;
 			
 			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_default = 2131492957;
+			public const int abc_secondary_text_material_light = 2131492957;
 			
 			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_edittext = 2131492958;
+			public const int abc_tint_btn_checkable = 2131492958;
 			
 			// aapt resource value: 0x7f0c005f
-			public const int abc_tint_seek_thumb = 2131492959;
+			public const int abc_tint_default = 2131492959;
 			
 			// aapt resource value: 0x7f0c0060
-			public const int abc_tint_spinner = 2131492960;
+			public const int abc_tint_edittext = 2131492960;
 			
 			// aapt resource value: 0x7f0c0061
-			public const int abc_tint_switch_thumb = 2131492961;
+			public const int abc_tint_seek_thumb = 2131492961;
 			
 			// aapt resource value: 0x7f0c0062
-			public const int abc_tint_switch_track = 2131492962;
+			public const int abc_tint_spinner = 2131492962;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int abc_tint_switch_thumb = 2131492963;
+			
+			// aapt resource value: 0x7f0c0064
+			public const int abc_tint_switch_track = 2131492964;
+			
+			// aapt resource value: 0x7f0c0048
+			public const int accent = 2131492936;
 			
 			// aapt resource value: 0x7f0c0049
-			public const int accent = 2131492937;
+			public const int accentDark = 2131492937;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int accent_material_dark = 2131492869;
@@ -2697,11 +2700,17 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0c0012
 			public const int button_material_light = 2131492882;
 			
+			// aapt resource value: 0x7f0c004e
+			public const int buttoncolor = 2131492942;
+			
+			// aapt resource value: 0x7f0c004a
+			public const int darkGray = 2131492938;
+			
 			// aapt resource value: 0x7f0c003b
 			public const int design_bottom_navigation_shadow_color = 2131492923;
 			
-			// aapt resource value: 0x7f0c0063
-			public const int design_error = 2131492963;
+			// aapt resource value: 0x7f0c0065
+			public const int design_error = 2131492965;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int design_fab_shadow_end_color = 2131492924;
@@ -2733,8 +2742,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0c0045
 			public const int design_textinput_error_color_light = 2131492933;
 			
-			// aapt resource value: 0x7f0c0064
-			public const int design_tint_password_toggle = 2131492964;
+			// aapt resource value: 0x7f0c0066
+			public const int design_tint_password_toggle = 2131492966;
 			
 			// aapt resource value: 0x7f0c0013
 			public const int dim_foreground_disabled_material_dark = 2131492883;
@@ -2747,9 +2756,6 @@ namespace Vilani.Xamarin.Droid
 			
 			// aapt resource value: 0x7f0c0016
 			public const int dim_foreground_material_light = 2131492886;
-			
-			// aapt resource value: 0x7f0c004d
-			public const int divider = 2131492941;
 			
 			// aapt resource value: 0x7f0c0017
 			public const int foreground_material_dark = 2131492887;
@@ -2764,7 +2770,7 @@ namespace Vilani.Xamarin.Droid
 			public const int highlighted_text_material_light = 2131492890;
 			
 			// aapt resource value: 0x7f0c004c
-			public const int icons = 2131492940;
+			public const int lightGray = 2131492940;
 			
 			// aapt resource value: 0x7f0c001b
 			public const int material_blue_grey_800 = 2131492891;
@@ -2802,6 +2808,9 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0c0026
 			public const int material_grey_900 = 2131492902;
 			
+			// aapt resource value: 0x7f0c004b
+			public const int normal_text = 2131492939;
+			
 			// aapt resource value: 0x7f0c0000
 			public const int notification_action_color_filter = 2131492864;
 			
@@ -2815,7 +2824,10 @@ namespace Vilani.Xamarin.Droid
 			public const int primary = 2131492934;
 			
 			// aapt resource value: 0x7f0c0047
-			public const int primary_dark = 2131492935;
+			public const int primaryDark = 2131492935;
+			
+			// aapt resource value: 0x7f0c004f
+			public const int primary_dark = 2131492943;
 			
 			// aapt resource value: 0x7f0c0029
 			public const int primary_dark_material_dark = 2131492905;
@@ -2823,17 +2835,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0c002a
 			public const int primary_dark_material_light = 2131492906;
 			
-			// aapt resource value: 0x7f0c0048
-			public const int primary_light = 2131492936;
-			
 			// aapt resource value: 0x7f0c002b
 			public const int primary_material_dark = 2131492907;
 			
 			// aapt resource value: 0x7f0c002c
 			public const int primary_material_light = 2131492908;
-			
-			// aapt resource value: 0x7f0c004a
-			public const int primary_text = 2131492938;
 			
 			// aapt resource value: 0x7f0c002d
 			public const int primary_text_default_material_dark = 2131492909;
@@ -2853,9 +2859,6 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0c0032
 			public const int ripple_material_light = 2131492914;
 			
-			// aapt resource value: 0x7f0c004b
-			public const int secondary_text = 2131492939;
-			
 			// aapt resource value: 0x7f0c0033
 			public const int secondary_text_default_material_dark = 2131492915;
 			
@@ -2874,17 +2877,20 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0c0038
 			public const int switch_thumb_disabled_material_light = 2131492920;
 			
-			// aapt resource value: 0x7f0c0065
-			public const int switch_thumb_material_dark = 2131492965;
+			// aapt resource value: 0x7f0c0067
+			public const int switch_thumb_material_dark = 2131492967;
 			
-			// aapt resource value: 0x7f0c0066
-			public const int switch_thumb_material_light = 2131492966;
+			// aapt resource value: 0x7f0c0068
+			public const int switch_thumb_material_light = 2131492968;
 			
 			// aapt resource value: 0x7f0c0039
 			public const int switch_thumb_normal_material_dark = 2131492921;
 			
 			// aapt resource value: 0x7f0c003a
 			public const int switch_thumb_normal_material_light = 2131492922;
+			
+			// aapt resource value: 0x7f0c004d
+			public const int transparent = 2131492941;
 			
 			static Color()
 			{
@@ -3585,64 +3591,67 @@ namespace Vilani.Xamarin.Droid
 			public const int avd_show_password = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int design_bottom_navigation_item_background = 2130837589;
+			public const int button_style = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int design_fab_background = 2130837590;
+			public const int design_bottom_navigation_item_background = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int design_ic_visibility = 2130837591;
+			public const int design_fab_background = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int design_ic_visibility_off = 2130837592;
+			public const int design_ic_visibility = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int design_password_eye = 2130837593;
+			public const int design_ic_visibility_off = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_snackbar_background = 2130837594;
+			public const int design_password_eye = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int Icon = 2130837595;
+			public const int design_snackbar_background = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int navigation_empty_icon = 2130837596;
+			public const int Icon = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int notification_action_background = 2130837597;
+			public const int navigation_empty_icon = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int notification_bg = 2130837598;
+			public const int notification_action_background = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int notification_bg_low = 2130837599;
+			public const int notification_bg = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int notification_bg_low_normal = 2130837600;
+			public const int notification_bg_low = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int notification_bg_low_pressed = 2130837601;
+			public const int notification_bg_low_normal = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int notification_bg_normal = 2130837602;
+			public const int notification_bg_low_pressed = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_bg_normal_pressed = 2130837603;
+			public const int notification_bg_normal = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int notification_icon_background = 2130837604;
-			
-			// aapt resource value: 0x7f020067
-			public const int notification_template_icon_bg = 2130837607;
-			
-			// aapt resource value: 0x7f020068
-			public const int notification_template_icon_low_bg = 2130837608;
+			public const int notification_bg_normal_pressed = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int notification_tile_bg = 2130837605;
+			public const int notification_icon_background = 2130837605;
+			
+			// aapt resource value: 0x7f020068
+			public const int notification_template_icon_bg = 2130837608;
+			
+			// aapt resource value: 0x7f020069
+			public const int notification_template_icon_low_bg = 2130837609;
 			
 			// aapt resource value: 0x7f020066
-			public const int notify_panel_notification_icon_bg = 2130837606;
+			public const int notification_tile_bg = 2130837606;
+			
+			// aapt resource value: 0x7f020067
+			public const int notify_panel_notification_icon_bg = 2130837607;
 			
 			static Drawable()
 			{
@@ -3657,14 +3666,17 @@ namespace Vilani.Xamarin.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f080082
+			public const int DepartureDateTextView = 2131230850;
+			
 			// aapt resource value: 0x7f08000f
 			public const int MvvmCrossTagId = 2131230735;
 			
 			// aapt resource value: 0x7f080010
 			public const int MvxBindingTagUnique = 2131230736;
 			
-			// aapt resource value: 0x7f080084
-			public const int action0 = 2131230852;
+			// aapt resource value: 0x7f080086
+			public const int action0 = 2131230854;
 			
 			// aapt resource value: 0x7f080066
 			public const int action_bar = 2131230822;
@@ -3687,17 +3699,17 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080043
 			public const int action_bar_title = 2131230787;
 			
-			// aapt resource value: 0x7f080081
-			public const int action_container = 2131230849;
+			// aapt resource value: 0x7f080083
+			public const int action_container = 2131230851;
 			
 			// aapt resource value: 0x7f080067
 			public const int action_context_bar = 2131230823;
 			
-			// aapt resource value: 0x7f080088
-			public const int action_divider = 2131230856;
+			// aapt resource value: 0x7f08008a
+			public const int action_divider = 2131230858;
 			
-			// aapt resource value: 0x7f080082
-			public const int action_image = 2131230850;
+			// aapt resource value: 0x7f080084
+			public const int action_image = 2131230852;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -3714,11 +3726,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080045
 			public const int action_mode_close_button = 2131230789;
 			
-			// aapt resource value: 0x7f080083
-			public const int action_text = 2131230851;
+			// aapt resource value: 0x7f080085
+			public const int action_text = 2131230853;
 			
-			// aapt resource value: 0x7f080091
-			public const int actions = 2131230865;
+			// aapt resource value: 0x7f080093
+			public const int actions = 2131230867;
 			
 			// aapt resource value: 0x7f080046
 			public const int activity_chooser_view_content = 2131230790;
@@ -3747,8 +3759,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08004d
 			public const int buttonPanel = 2131230797;
 			
-			// aapt resource value: 0x7f080085
-			public const int cancel_action = 2131230853;
+			// aapt resource value: 0x7f080087
+			public const int cancel_action = 2131230855;
 			
 			// aapt resource value: 0x7f080032
 			public const int center = 2131230770;
@@ -3762,8 +3774,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08005d
 			public const int checkbox = 2131230813;
 			
-			// aapt resource value: 0x7f08008d
-			public const int chronometer = 2131230861;
+			// aapt resource value: 0x7f08008f
+			public const int chronometer = 2131230863;
 			
 			// aapt resource value: 0x7f08003b
 			public const int clip_horizontal = 2131230779;
@@ -3813,8 +3825,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080023
 			public const int end = 2131230755;
 			
-			// aapt resource value: 0x7f080097
-			public const int end_padder = 2131230871;
+			// aapt resource value: 0x7f080099
+			public const int end_padder = 2131230873;
 			
 			// aapt resource value: 0x7f08002c
 			public const int enterAlways = 2131230764;
@@ -3843,6 +3855,9 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080041
 			public const int @fixed = 2131230785;
 			
+			// aapt resource value: 0x7f080081
+			public const int gridView1 = 2131230849;
+			
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
 			
@@ -3852,8 +3867,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08004b
 			public const int icon = 2131230795;
 			
-			// aapt resource value: 0x7f080092
-			public const int icon_group = 2131230866;
+			// aapt resource value: 0x7f080094
+			public const int icon_group = 2131230868;
 			
 			// aapt resource value: 0x7f080027
 			public const int ifRoom = 2131230759;
@@ -3861,8 +3876,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080048
 			public const int image = 2131230792;
 			
-			// aapt resource value: 0x7f08008e
-			public const int info = 2131230862;
+			// aapt resource value: 0x7f080090
+			public const int info = 2131230864;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
@@ -3873,11 +3888,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080036
 			public const int left = 2131230774;
 			
-			// aapt resource value: 0x7f080093
-			public const int line1 = 2131230867;
-			
 			// aapt resource value: 0x7f080095
-			public const int line3 = 2131230869;
+			public const int line1 = 2131230869;
+			
+			// aapt resource value: 0x7f080097
+			public const int line3 = 2131230871;
 			
 			// aapt resource value: 0x7f080011
 			public const int listMode = 2131230737;
@@ -3885,20 +3900,20 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08004a
 			public const int list_item = 2131230794;
 			
-			// aapt resource value: 0x7f08009a
-			public const int main_tablayout = 2131230874;
-			
-			// aapt resource value: 0x7f080099
-			public const int main_toolbar = 2131230873;
+			// aapt resource value: 0x7f08009c
+			public const int main_tablayout = 2131230876;
 			
 			// aapt resource value: 0x7f08009b
-			public const int main_view_pager = 2131230875;
+			public const int main_toolbar = 2131230875;
 			
 			// aapt resource value: 0x7f08009d
-			public const int masked = 2131230877;
+			public const int main_view_pager = 2131230877;
 			
-			// aapt resource value: 0x7f080087
-			public const int media_actions = 2131230855;
+			// aapt resource value: 0x7f08009f
+			public const int masked = 2131230879;
+			
+			// aapt resource value: 0x7f080089
+			public const int media_actions = 2131230857;
 			
 			// aapt resource value: 0x7f080024
 			public const int middle = 2131230756;
@@ -3921,14 +3936,14 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080012
 			public const int normal = 2131230738;
 			
-			// aapt resource value: 0x7f080090
-			public const int notification_background = 2131230864;
+			// aapt resource value: 0x7f080092
+			public const int notification_background = 2131230866;
 			
-			// aapt resource value: 0x7f08008a
-			public const int notification_main_column = 2131230858;
+			// aapt resource value: 0x7f08008c
+			public const int notification_main_column = 2131230860;
 			
-			// aapt resource value: 0x7f080089
-			public const int notification_main_column_container = 2131230857;
+			// aapt resource value: 0x7f08008b
+			public const int notification_main_column_container = 2131230859;
 			
 			// aapt resource value: 0x7f080039
 			public const int parallax = 2131230777;
@@ -3951,11 +3966,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080037
 			public const int right = 2131230775;
 			
-			// aapt resource value: 0x7f08008f
-			public const int right_icon = 2131230863;
+			// aapt resource value: 0x7f080091
+			public const int right_icon = 2131230865;
 			
-			// aapt resource value: 0x7f08008b
-			public const int right_side = 2131230859;
+			// aapt resource value: 0x7f08008d
+			public const int right_side = 2131230861;
 			
 			// aapt resource value: 0x7f08001d
 			public const int screen = 2131230749;
@@ -4020,8 +4035,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080019
 			public const int showTitle = 2131230745;
 			
-			// aapt resource value: 0x7f080098
-			public const int simple_toolbar = 2131230872;
+			// aapt resource value: 0x7f08009a
+			public const int simple_toolbar = 2131230874;
 			
 			// aapt resource value: 0x7f080075
 			public const int smallLabel = 2131230837;
@@ -4053,8 +4068,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080038
 			public const int start = 2131230776;
 			
-			// aapt resource value: 0x7f080086
-			public const int status_bar_latest_event_content = 2131230854;
+			// aapt resource value: 0x7f080088
+			public const int status_bar_latest_event_content = 2131230856;
 			
 			// aapt resource value: 0x7f080060
 			public const int submenuarrow = 2131230816;
@@ -4065,11 +4080,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080013
 			public const int tabMode = 2131230739;
 			
-			// aapt resource value: 0x7f080096
-			public const int text = 2131230870;
+			// aapt resource value: 0x7f080098
+			public const int text = 2131230872;
 			
-			// aapt resource value: 0x7f080094
-			public const int text2 = 2131230868;
+			// aapt resource value: 0x7f080096
+			public const int text2 = 2131230870;
 			
 			// aapt resource value: 0x7f080054
 			public const int textSpacerNoButtons = 2131230804;
@@ -4086,8 +4101,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f08008c
-			public const int time = 2131230860;
+			// aapt resource value: 0x7f08008e
+			public const int time = 2131230862;
 			
 			// aapt resource value: 0x7f08004c
 			public const int title = 2131230796;
@@ -4122,8 +4137,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f08009c
-			public const int visible = 2131230876;
+			// aapt resource value: 0x7f08009e
+			public const int visible = 2131230878;
 			
 			// aapt resource value: 0x7f080029
 			public const int withText = 2131230761;
@@ -4314,70 +4329,73 @@ namespace Vilani.Xamarin.Droid
 			public const int fragment_table = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int notification_action = 2130903083;
+			public const int grid_item_table = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int notification_action_tombstone = 2130903084;
+			public const int notification_action = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int notification_media_action = 2130903085;
+			public const int notification_action_tombstone = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int notification_media_cancel_action = 2130903086;
+			public const int notification_media_action = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_template_big_media = 2130903087;
+			public const int notification_media_cancel_action = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_template_big_media_custom = 2130903088;
+			public const int notification_template_big_media = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_template_big_media_narrow = 2130903089;
+			public const int notification_template_big_media_custom = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_template_big_media_narrow_custom = 2130903090;
+			public const int notification_template_big_media_narrow = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_template_custom_big = 2130903091;
+			public const int notification_template_big_media_narrow_custom = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_icon_group = 2130903092;
+			public const int notification_template_custom_big = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_lines_media = 2130903093;
+			public const int notification_template_icon_group = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_media = 2130903094;
+			public const int notification_template_lines_media = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_media_custom = 2130903095;
+			public const int notification_template_media = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_part_chronometer = 2130903096;
+			public const int notification_template_media_custom = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_part_time = 2130903097;
+			public const int notification_template_part_chronometer = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int page_child_of_child = 2130903098;
+			public const int notification_template_part_time = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int page_main = 2130903099;
+			public const int page_child_of_child = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int page_splash_screen = 2130903100;
+			public const int page_main = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int select_dialog_item_material = 2130903101;
+			public const int page_splash_screen = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int select_dialog_multichoice_material = 2130903102;
+			public const int select_dialog_item_material = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int select_dialog_singlechoice_material = 2130903103;
+			public const int select_dialog_multichoice_material = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int support_simple_spinner_dropdown_item = 2130903104;
+			public const int select_dialog_singlechoice_material = 2130903104;
+			
+			// aapt resource value: 0x7f030041
+			public const int support_simple_spinner_dropdown_item = 2130903105;
 			
 			static Layout()
 			{
@@ -4528,38 +4546,38 @@ namespace Vilani.Xamarin.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f0a009d
-			public const int AlertDialog_AppCompat = 2131361949;
-			
-			// aapt resource value: 0x7f0a009e
-			public const int AlertDialog_AppCompat_Light = 2131361950;
-			
 			// aapt resource value: 0x7f0a009f
-			public const int Animation_AppCompat_Dialog = 2131361951;
+			public const int AlertDialog_AppCompat = 2131361951;
 			
 			// aapt resource value: 0x7f0a00a0
-			public const int Animation_AppCompat_DropDownUp = 2131361952;
+			public const int AlertDialog_AppCompat_Light = 2131361952;
+			
+			// aapt resource value: 0x7f0a00a1
+			public const int Animation_AppCompat_Dialog = 2131361953;
+			
+			// aapt resource value: 0x7f0a00a2
+			public const int Animation_AppCompat_DropDownUp = 2131361954;
 			
 			// aapt resource value: 0x7f0a0161
 			public const int Animation_Design_BottomSheetDialog = 2131362145;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int Base_AlertDialog_AppCompat = 2131361953;
-			
-			// aapt resource value: 0x7f0a00a2
-			public const int Base_AlertDialog_AppCompat_Light = 2131361954;
-			
 			// aapt resource value: 0x7f0a00a3
-			public const int Base_Animation_AppCompat_Dialog = 2131361955;
+			public const int Base_AlertDialog_AppCompat = 2131361955;
 			
 			// aapt resource value: 0x7f0a00a4
-			public const int Base_Animation_AppCompat_DropDownUp = 2131361956;
+			public const int Base_AlertDialog_AppCompat_Light = 2131361956;
 			
 			// aapt resource value: 0x7f0a00a5
-			public const int Base_DialogWindowTitle_AppCompat = 2131361957;
+			public const int Base_Animation_AppCompat_Dialog = 2131361957;
 			
 			// aapt resource value: 0x7f0a00a6
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131361958;
+			public const int Base_Animation_AppCompat_DropDownUp = 2131361958;
+			
+			// aapt resource value: 0x7f0a00a7
+			public const int Base_DialogWindowTitle_AppCompat = 2131361959;
+			
+			// aapt resource value: 0x7f0a00a8
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131361960;
 			
 			// aapt resource value: 0x7f0a003f
 			public const int Base_TextAppearance_AppCompat = 2131361855;
@@ -4615,8 +4633,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0a004c
 			public const int Base_TextAppearance_AppCompat_Menu = 2131361868;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131361959;
+			// aapt resource value: 0x7f0a00a9
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131361961;
 			
 			// aapt resource value: 0x7f0a004d
 			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131361869;
@@ -4666,11 +4684,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0a0058
 			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131361880;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131361960;
+			// aapt resource value: 0x7f0a009b
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131361947;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131361961;
+			// aapt resource value: 0x7f0a009c
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131361948;
 			
 			// aapt resource value: 0x7f0a0095
 			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131361941;
@@ -5038,11 +5056,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0a0089
 			public const int Platform_V21_AppCompat_Light = 2131361929;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int Platform_V25_AppCompat = 2131361947;
+			// aapt resource value: 0x7f0a009d
+			public const int Platform_V25_AppCompat = 2131361949;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int Platform_V25_AppCompat_Light = 2131361948;
+			// aapt resource value: 0x7f0a009e
+			public const int Platform_V25_AppCompat_Light = 2131361950;
 			
 			// aapt resource value: 0x7f0a0022
 			public const int Platform_Widget_AppCompat_Spinner = 2131361826;
