@@ -11,6 +11,8 @@ using Android.Views;
 using Android.Widget;
 using Android.Support.Design.Widget;
 using Vilani.Xamarin.Core.ViewModels;
+using Vilani.Xamarin.Core.Comman;
+using Vilani.Xamarin.Core.Model;
 
 namespace Vilani.Xamarin.Droid.Common
 {
@@ -27,10 +29,35 @@ namespace Vilani.Xamarin.Droid.Common
             MasterViewModel = masterViewModel;
         }
 
-        public void SetTab(int tabIndex)
+        private void SetTab(int tabIndex)
         {
             CurrentTab = MainTabLayout.GetTabAt(tabIndex);
             CurrentTab.Select();
+        }
+
+        public void HandleAction(object sender, NavigationEventArgs actionArgs)
+        {
+            //SetTab((int)actionArgs.Data.Destination);
+
+            switch (actionArgs.Data.Destination)
+            {
+                case Tabs.Tables:
+                    break;
+                case Tabs.Menu:
+                    MenuTabActions(actionArgs);
+                    break;
+                case Tabs.Orders:
+                    break;
+                default:
+                    break;
+            }
+
+        }
+
+        private void MenuTabActions(NavigationEventArgs actionArgs)
+        {
+            MasterViewModel.SharedData.SelectedTable = (TableVM)actionArgs.Data.Data;
+            SetTab((int)actionArgs.Data.Destination);
         }
     }
 }

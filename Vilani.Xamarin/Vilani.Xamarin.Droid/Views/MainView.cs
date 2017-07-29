@@ -43,16 +43,14 @@ namespace Vilani.Xamarin.Droid.Views
 
             //If you want to start at specific tab
             //viewPager.SetCurrentItem(ViewModel.CurrentPage, false);
-
-            //var tabLayout = FindViewById<TabLayout>(Resource.Id.main_tablayout);
-
+            
             TabNavigationHandler.MainTabLayout.SetupWithViewPager(viewPager);
 
         }
 
-        private void ViewModel_TabChanged(object sender, Vilani.Xamarin.Core.Comman.NavigationEventArgs tab)
+        private void ViewModel_TabChanged(object sender, Vilani.Xamarin.Core.Comman.NavigationEventArgs navigationArgs)
         {
-            TabNavigationHandler.SetTab((int)tab.Data.Destination);
+            TabNavigationHandler.HandleAction(sender, navigationArgs);
         }
     }
 }

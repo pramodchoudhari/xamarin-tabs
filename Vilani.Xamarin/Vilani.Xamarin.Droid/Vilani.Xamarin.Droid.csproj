@@ -134,6 +134,7 @@
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\ChildOfChildView.cs" />
     <Compile Include="Views\Fragments\ChildFragment.cs" />
+    <Compile Include="Views\Fragments\MenuFragment.cs" />
     <Compile Include="Views\Fragments\TableFragment.cs" />
     <Compile Include="Views\MainView.cs" />
   </ItemGroup>
