@@ -17,7 +17,7 @@
             android:textColor="@color/buttoncolor"
             android:textSize="17dp"
             android:padding="10dp"
-            local:MvxBind="Text Name" />
+            local:MvxBind="Text Name; Click LinkTableCommand;Background IsSelected,Converter=BackgroundColor" />
         <!--<ImageButton
             android:background="@drawable/link"
             android:layout_height="wrap_content"
