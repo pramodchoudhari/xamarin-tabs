@@ -38,6 +38,9 @@ namespace Vilani.Xamarin.Core.Model
         public bool IsSplitted { get; set; }
         public List<TableVM> SplitTables { get; set; }
 
+        public delegate void TableSelected(object sender, TableVM table);
+        public event TableSelected onTableSelected;
+
         public MvxCommand LinkTableCommand => new MvxCommand(OnTableSelection);
         public MvxCommand TestCommand => new MvxCommand(OnLinkClicked);
 
@@ -49,6 +52,7 @@ namespace Vilani.Xamarin.Core.Model
         private void OnTableSelection()
         {
             IsSelected = !IsSelected;
+            onTableSelected(this, this);
         }
 
 

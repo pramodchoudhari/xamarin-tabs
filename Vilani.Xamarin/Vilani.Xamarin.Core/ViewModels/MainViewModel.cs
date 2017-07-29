@@ -6,13 +6,13 @@ namespace Vilani.Xamarin.Core.ViewModels
 {
     public class MainViewModel : MvxViewModel
     {
-        public delegate void ChangeTab(Tabs tab);
+        public delegate void ChangeTab(object sender, Tabs tab);
         public event ChangeTab TabChanged;
 
         public MainViewModel()
         {
             MyViewModels = new List<TabsBaseViewModel>()
-                {
+            {
                 new TablesViewModel("Tables"),
                 new ChildViewModel("Menu"),
                 new ChildViewModel("Orders")
@@ -22,9 +22,9 @@ namespace Vilani.Xamarin.Core.ViewModels
             MyViewModels[2].TabChanged += MainViewModel_TabChanged;
         }
 
-        private void MainViewModel_TabChanged(Comman.Tabs tab)
+        private void MainViewModel_TabChanged(object sender, Core.Comman.Tabs tab)
         {
-            TabChanged(tab);
+            TabChanged(this, tab);
         }
 
         private List<TabsBaseViewModel> _myViewModels;

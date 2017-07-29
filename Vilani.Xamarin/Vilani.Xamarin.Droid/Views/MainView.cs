@@ -44,13 +44,13 @@ namespace Vilani.Xamarin.Droid.Views
 
         }
 
-
-
-        private void ViewModel_TabChanged(Core.Comman.Tabs tab)
+        private void ViewModel_TabChanged(object sender, Core.Comman.Tabs tab)
         {
             TabLayout tabLayout = FindViewById<TabLayout>(Resource.Id.main_tablayout);
             TabLayout.Tab tabContent = tabLayout.GetTabAt((int)tab);
             tabContent.Select();
         }
+
+      
     }
 }

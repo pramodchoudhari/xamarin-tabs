@@ -17,12 +17,20 @@ namespace Vilani.Xamarin.Core.ViewModels
 {
     public class TablesViewModel : TabsBaseViewModel
     {
+
+
         public TablesViewModel(string name = "default")
         {
             Name = name;
             IsSingleValid = true;
             TableName = "Table name is ";
             Task.Run(() => test());
+            TabChanged += TablesViewModel_TabChanged;
+        }
+
+        private void TablesViewModel_TabChanged(object sender, Tabs tab)
+        {
+
         }
 
         public ICommand GoToMenu => new MvxCommand(() =>
@@ -34,12 +42,20 @@ namespace Vilani.Xamarin.Core.ViewModels
         public async void test()
         {
             Tables = new ObservableCollection<TableVM>(await new TableService().GetTables());
+            foreach (var table in Tables)
+            {
+                table.onTableSelected += Table_onTableSelected;
+            }
             //Tables = new ObservableCollection<TableVM>() {
             //    new TableVM(){ Name="table1"},
             //    new TableVM(){ Name="table2"},
             //};
         }
 
+        private void Table_onTableSelected(object sender, TableVM table)
+        {
+            
+        }
 
         private string _tablename;
         public string TableName
