@@ -17,8 +17,6 @@ namespace Vilani.Xamarin.Core.ViewModels
 {
     public class TablesViewModel : TabsBaseViewModel
     {
-
-
         public TablesViewModel(string name = "default")
         {
             Name = name;
@@ -57,12 +55,7 @@ namespace Vilani.Xamarin.Core.ViewModels
 
         private void Table_onTableSelected(object sender, TableVM table)
         {
-            TabChangeds(new NavigationEventArgs(this, new NavigationArgs
-            {
-                Sender = Tabs.Tables,
-                Destination = Tabs.Menu,
-                Data = table
-            }));
+            base.PublishTabSelected(table);
         }
 
         private string _tablename;

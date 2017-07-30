@@ -3666,8 +3666,8 @@ namespace Vilani.Xamarin.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080082
-			public const int DepartureDateTextView = 2131230850;
+			// aapt resource value: 0x7f080084
+			public const int DepartureDateTextView = 2131230852;
 			
 			// aapt resource value: 0x7f08000f
 			public const int MvvmCrossTagId = 2131230735;
@@ -3675,8 +3675,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080010
 			public const int MvxBindingTagUnique = 2131230736;
 			
-			// aapt resource value: 0x7f080086
-			public const int action0 = 2131230854;
+			// aapt resource value: 0x7f080089
+			public const int action0 = 2131230857;
 			
 			// aapt resource value: 0x7f080066
 			public const int action_bar = 2131230822;
@@ -3699,17 +3699,17 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080043
 			public const int action_bar_title = 2131230787;
 			
-			// aapt resource value: 0x7f080083
-			public const int action_container = 2131230851;
+			// aapt resource value: 0x7f080086
+			public const int action_container = 2131230854;
 			
 			// aapt resource value: 0x7f080067
 			public const int action_context_bar = 2131230823;
 			
-			// aapt resource value: 0x7f08008a
-			public const int action_divider = 2131230858;
+			// aapt resource value: 0x7f08008d
+			public const int action_divider = 2131230861;
 			
-			// aapt resource value: 0x7f080084
-			public const int action_image = 2131230852;
+			// aapt resource value: 0x7f080087
+			public const int action_image = 2131230855;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -3726,11 +3726,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080045
 			public const int action_mode_close_button = 2131230789;
 			
-			// aapt resource value: 0x7f080085
-			public const int action_text = 2131230853;
+			// aapt resource value: 0x7f080088
+			public const int action_text = 2131230856;
 			
-			// aapt resource value: 0x7f080093
-			public const int actions = 2131230867;
+			// aapt resource value: 0x7f080096
+			public const int actions = 2131230870;
 			
 			// aapt resource value: 0x7f080046
 			public const int activity_chooser_view_content = 2131230790;
@@ -3756,11 +3756,17 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08002a
 			public const int bottom = 2131230762;
 			
+			// aapt resource value: 0x7f080083
+			public const int buttonAdd = 2131230851;
+			
 			// aapt resource value: 0x7f08004d
 			public const int buttonPanel = 2131230797;
 			
-			// aapt resource value: 0x7f080087
-			public const int cancel_action = 2131230855;
+			// aapt resource value: 0x7f080085
+			public const int buttonRemove = 2131230853;
+			
+			// aapt resource value: 0x7f08008a
+			public const int cancel_action = 2131230858;
 			
 			// aapt resource value: 0x7f080032
 			public const int center = 2131230770;
@@ -3774,8 +3780,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08005d
 			public const int checkbox = 2131230813;
 			
-			// aapt resource value: 0x7f08008f
-			public const int chronometer = 2131230863;
+			// aapt resource value: 0x7f080092
+			public const int chronometer = 2131230866;
 			
 			// aapt resource value: 0x7f08003b
 			public const int clip_horizontal = 2131230779;
@@ -3825,8 +3831,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080023
 			public const int end = 2131230755;
 			
-			// aapt resource value: 0x7f080099
-			public const int end_padder = 2131230873;
+			// aapt resource value: 0x7f08009c
+			public const int end_padder = 2131230876;
 			
 			// aapt resource value: 0x7f08002c
 			public const int enterAlways = 2131230764;
@@ -3855,8 +3861,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080041
 			public const int @fixed = 2131230785;
 			
+			// aapt resource value: 0x7f080082
+			public const int gridView1 = 2131230850;
+			
 			// aapt resource value: 0x7f080081
-			public const int gridView1 = 2131230849;
+			public const int gridViewMenu = 2131230849;
 			
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
@@ -3867,8 +3876,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08004b
 			public const int icon = 2131230795;
 			
-			// aapt resource value: 0x7f080094
-			public const int icon_group = 2131230868;
+			// aapt resource value: 0x7f080097
+			public const int icon_group = 2131230871;
 			
 			// aapt resource value: 0x7f080027
 			public const int ifRoom = 2131230759;
@@ -3876,8 +3885,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080048
 			public const int image = 2131230792;
 			
-			// aapt resource value: 0x7f080090
-			public const int info = 2131230864;
+			// aapt resource value: 0x7f080093
+			public const int info = 2131230867;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
@@ -3888,11 +3897,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080036
 			public const int left = 2131230774;
 			
-			// aapt resource value: 0x7f080095
-			public const int line1 = 2131230869;
+			// aapt resource value: 0x7f080098
+			public const int line1 = 2131230872;
 			
-			// aapt resource value: 0x7f080097
-			public const int line3 = 2131230871;
+			// aapt resource value: 0x7f08009a
+			public const int line3 = 2131230874;
 			
 			// aapt resource value: 0x7f080011
 			public const int listMode = 2131230737;
@@ -3900,20 +3909,20 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08004a
 			public const int list_item = 2131230794;
 			
-			// aapt resource value: 0x7f08009c
-			public const int main_tablayout = 2131230876;
-			
-			// aapt resource value: 0x7f08009b
-			public const int main_toolbar = 2131230875;
-			
-			// aapt resource value: 0x7f08009d
-			public const int main_view_pager = 2131230877;
-			
 			// aapt resource value: 0x7f08009f
-			public const int masked = 2131230879;
+			public const int main_tablayout = 2131230879;
 			
-			// aapt resource value: 0x7f080089
-			public const int media_actions = 2131230857;
+			// aapt resource value: 0x7f08009e
+			public const int main_toolbar = 2131230878;
+			
+			// aapt resource value: 0x7f0800a0
+			public const int main_view_pager = 2131230880;
+			
+			// aapt resource value: 0x7f0800a2
+			public const int masked = 2131230882;
+			
+			// aapt resource value: 0x7f08008c
+			public const int media_actions = 2131230860;
 			
 			// aapt resource value: 0x7f080024
 			public const int middle = 2131230756;
@@ -3936,14 +3945,14 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080012
 			public const int normal = 2131230738;
 			
-			// aapt resource value: 0x7f080092
-			public const int notification_background = 2131230866;
+			// aapt resource value: 0x7f080095
+			public const int notification_background = 2131230869;
 			
-			// aapt resource value: 0x7f08008c
-			public const int notification_main_column = 2131230860;
+			// aapt resource value: 0x7f08008f
+			public const int notification_main_column = 2131230863;
 			
-			// aapt resource value: 0x7f08008b
-			public const int notification_main_column_container = 2131230859;
+			// aapt resource value: 0x7f08008e
+			public const int notification_main_column_container = 2131230862;
 			
 			// aapt resource value: 0x7f080039
 			public const int parallax = 2131230777;
@@ -3966,11 +3975,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080037
 			public const int right = 2131230775;
 			
-			// aapt resource value: 0x7f080091
-			public const int right_icon = 2131230865;
+			// aapt resource value: 0x7f080094
+			public const int right_icon = 2131230868;
 			
-			// aapt resource value: 0x7f08008d
-			public const int right_side = 2131230861;
+			// aapt resource value: 0x7f080090
+			public const int right_side = 2131230864;
 			
 			// aapt resource value: 0x7f08001d
 			public const int screen = 2131230749;
@@ -4035,8 +4044,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080019
 			public const int showTitle = 2131230745;
 			
-			// aapt resource value: 0x7f08009a
-			public const int simple_toolbar = 2131230874;
+			// aapt resource value: 0x7f08009d
+			public const int simple_toolbar = 2131230877;
 			
 			// aapt resource value: 0x7f080075
 			public const int smallLabel = 2131230837;
@@ -4068,8 +4077,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080038
 			public const int start = 2131230776;
 			
-			// aapt resource value: 0x7f080088
-			public const int status_bar_latest_event_content = 2131230856;
+			// aapt resource value: 0x7f08008b
+			public const int status_bar_latest_event_content = 2131230859;
 			
 			// aapt resource value: 0x7f080060
 			public const int submenuarrow = 2131230816;
@@ -4080,11 +4089,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f080013
 			public const int tabMode = 2131230739;
 			
-			// aapt resource value: 0x7f080098
-			public const int text = 2131230872;
+			// aapt resource value: 0x7f08009b
+			public const int text = 2131230875;
 			
-			// aapt resource value: 0x7f080096
-			public const int text2 = 2131230870;
+			// aapt resource value: 0x7f080099
+			public const int text2 = 2131230873;
 			
 			// aapt resource value: 0x7f080054
 			public const int textSpacerNoButtons = 2131230804;
@@ -4101,8 +4110,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f08008e
-			public const int time = 2131230862;
+			// aapt resource value: 0x7f080091
+			public const int time = 2131230865;
 			
 			// aapt resource value: 0x7f08004c
 			public const int title = 2131230796;
@@ -4137,8 +4146,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f08009e
-			public const int visible = 2131230878;
+			// aapt resource value: 0x7f0800a1
+			public const int visible = 2131230881;
 			
 			// aapt resource value: 0x7f080029
 			public const int withText = 2131230761;
@@ -4326,76 +4335,82 @@ namespace Vilani.Xamarin.Droid
 			public const int fragment_child = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int fragment_table = 2130903082;
+			public const int fragment_menu = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int grid_item_table = 2130903083;
+			public const int fragment_table = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int notification_action = 2130903084;
+			public const int grid_item_menu = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int notification_action_tombstone = 2130903085;
+			public const int grid_item_table = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int notification_media_action = 2130903086;
+			public const int notification_action = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_media_cancel_action = 2130903087;
+			public const int notification_action_tombstone = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_template_big_media = 2130903088;
+			public const int notification_media_action = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_template_big_media_custom = 2130903089;
+			public const int notification_media_cancel_action = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_template_big_media_narrow = 2130903090;
+			public const int notification_template_big_media = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_template_big_media_narrow_custom = 2130903091;
+			public const int notification_template_big_media_custom = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_custom_big = 2130903092;
+			public const int notification_template_big_media_narrow = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_icon_group = 2130903093;
+			public const int notification_template_big_media_narrow_custom = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_lines_media = 2130903094;
+			public const int notification_template_custom_big = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_media = 2130903095;
+			public const int notification_template_icon_group = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_media_custom = 2130903096;
+			public const int notification_template_lines_media = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_part_chronometer = 2130903097;
+			public const int notification_template_media = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_part_time = 2130903098;
+			public const int notification_template_media_custom = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int page_child_of_child = 2130903099;
+			public const int notification_template_part_chronometer = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int page_main = 2130903100;
+			public const int notification_template_part_time = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int page_splash_screen = 2130903101;
+			public const int page_child_of_child = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int select_dialog_item_material = 2130903102;
+			public const int page_main = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int select_dialog_multichoice_material = 2130903103;
+			public const int page_splash_screen = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int select_dialog_singlechoice_material = 2130903104;
+			public const int select_dialog_item_material = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int support_simple_spinner_dropdown_item = 2130903105;
+			public const int select_dialog_multichoice_material = 2130903105;
+			
+			// aapt resource value: 0x7f030042
+			public const int select_dialog_singlechoice_material = 2130903106;
+			
+			// aapt resource value: 0x7f030043
+			public const int support_simple_spinner_dropdown_item = 2130903107;
 			
 			static Layout()
 			{

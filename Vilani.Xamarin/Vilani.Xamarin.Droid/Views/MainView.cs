@@ -37,7 +37,7 @@ namespace Vilani.Xamarin.Droid.Views
             //foreach (var myViewModel in ViewModel.MyViewModels)
             
             fragments.Add(new MvxCachingFragmentStatePagerAdapter.FragmentInfo(ViewModel.MyViewModels[0].Name, typeof(TableFragment), ViewModel.MyViewModels[0]));
-            fragments.Add(new MvxCachingFragmentStatePagerAdapter.FragmentInfo(ViewModel.MyViewModels[1].Name, typeof(ChildFragment), ViewModel.MyViewModels[1]));
+            fragments.Add(new MvxCachingFragmentStatePagerAdapter.FragmentInfo(ViewModel.MyViewModels[1].Name, typeof(MenuFragment), ViewModel.MyViewModels[1]));
             fragments.Add(new MvxCachingFragmentStatePagerAdapter.FragmentInfo(ViewModel.MyViewModels[2].Name, typeof(ChildFragment), ViewModel.MyViewModels[2]));
 
             viewPager.Adapter = new MvxCachingFragmentStatePagerAdapter(this, SupportFragmentManager, fragments);

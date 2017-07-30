@@ -10,6 +10,11 @@
         android:layout_height="fill_parent"
         android:orientation="horizontal"
         android:background="@drawable/button_style">
+        <Button
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonAdd" />
         <TextView
             android:id="@+id/DepartureDateTextView"
             android:layout_width="wrap_content"
@@ -17,7 +22,13 @@
             android:textColor="@color/buttoncolor"
             android:textSize="17dp"
             android:padding="10dp"
-            local:MvxBind="Text Name; Click LinkTableCommand;Background IsSelected,Converter=BackgroundColor" />
+            local:MvxBind="Text ProductItemName" />
+   
+     <Button
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonRemove" />
     <!--<ImageButton
             android:background="@drawable/link"
             android:layout_height="wrap_content"

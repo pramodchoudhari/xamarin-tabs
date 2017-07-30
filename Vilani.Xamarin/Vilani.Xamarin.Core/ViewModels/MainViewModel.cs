@@ -25,7 +25,7 @@ namespace Vilani.Xamarin.Core.ViewModels
         {
             InitTabsViewModel();
             SharedData = new SharedDataViewModel();
-            
+        
         }
 
         private void InitTabsViewModel()
@@ -33,7 +33,7 @@ namespace Vilani.Xamarin.Core.ViewModels
             MyViewModels = new List<TabsBaseViewModel>()
             {
                 new TablesViewModel("Tables"),
-                new ChildViewModel("Menu"),
+                new MenuViewModel("Menu"),
                 new ChildViewModel("Orders")
             };
             MyViewModels[0].TabChanged += MainViewModel_TabChanged;

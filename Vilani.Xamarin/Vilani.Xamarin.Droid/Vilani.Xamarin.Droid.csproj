@@ -156,6 +156,10 @@
     <AndroidResource Include="Resources\Layout\fragment_table.axml" />
     <AndroidResource Include="Resources\Layout\grid_item_table.axml" />
     <AndroidResource Include="Resources\Drawable\button_style.axml" />
+    <AndroidResource Include="Resources\Layout\fragment_menu.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\grid_item_menu.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\Icon.png" />

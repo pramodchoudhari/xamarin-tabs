@@ -4,24 +4,19 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-  <Button
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="TTTT"
-      local:MvxBind="Click GoToMenu" />
-  <Mvx.MvxGridView
-          android:id="@+id/gridView1"
-          android:numColumns="auto_fit"
-          android:gravity="center"
-          android:columnWidth="100dp"
-          android:stretchMode="columnWidth"
-          android:layout_width="fill_parent"
-          android:layout_height="fill_parent"
-          local:MvxItemTemplate="@layout/grid_item_table"
-          local:MvxBind="ItemsSource Tables; ItemClick SelectedTableCommand;"
-  />
-
-
-
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TTTT"
+        local:MvxBind="Click GoToMenu" />
+    <Mvx.MvxGridView
+        android:id="@+id/gridView1"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        local:MvxItemTemplate="@layout/grid_item_table"
+        local:MvxBind="ItemsSource Tables; ItemClick SelectedTableCommand;" />
 </LinearLayout>

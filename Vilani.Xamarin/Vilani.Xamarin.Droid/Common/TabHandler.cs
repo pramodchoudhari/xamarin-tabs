@@ -33,8 +33,6 @@ namespace Vilani.Xamarin.Droid.Common
         {
             CurrentTab = MainTabLayout.GetTabAt(tabIndex);
             CurrentTab.Select();
-            CurrentTab.SetContentDescription("Test");
-
         }
 
         public void HandleAction(object sender, NavigationEventArgs actionArgs)
@@ -58,7 +56,6 @@ namespace Vilani.Xamarin.Droid.Common
 
         private void MenuTabActions(NavigationEventArgs actionArgs)
         {
-            MasterViewModel.SharedData.SelectedTable = (TableVM)actionArgs.Data.Data;
             SetTab((int)actionArgs.Data.Destination);
         }
     }
