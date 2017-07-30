@@ -10,6 +10,7 @@ namespace Vilani.Xamarin.Core.ViewModels
 {
     public class TabsBaseViewModel : MvxViewModel
     {
+        
         private string _name;
         public string Name
         {

@@ -19,12 +19,13 @@ namespace Vilani.Xamarin.Core.ViewModels
                 RaisePropertyChanged(() => MyViewModels);
             }
         }
-
+      
         public SharedDataViewModel SharedData { get; set; }
         public MainViewModel()
         {
             InitTabsViewModel();
             SharedData = new SharedDataViewModel();
+            
         }
 
         private void InitTabsViewModel()
@@ -43,6 +44,7 @@ namespace Vilani.Xamarin.Core.ViewModels
         private void MainViewModel_TabChanged(object sender, NavigationEventArgs tabData)
         {
             TabChanged(this, tabData);
+           
         }
 
 

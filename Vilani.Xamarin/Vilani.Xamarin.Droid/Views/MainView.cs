@@ -35,6 +35,7 @@ namespace Vilani.Xamarin.Droid.Views
             var fragments = new List<MvxCachingFragmentStatePagerAdapter.FragmentInfo>();
             ViewModel.TabChanged += ViewModel_TabChanged;
             //foreach (var myViewModel in ViewModel.MyViewModels)
+            
             fragments.Add(new MvxCachingFragmentStatePagerAdapter.FragmentInfo(ViewModel.MyViewModels[0].Name, typeof(TableFragment), ViewModel.MyViewModels[0]));
             fragments.Add(new MvxCachingFragmentStatePagerAdapter.FragmentInfo(ViewModel.MyViewModels[1].Name, typeof(ChildFragment), ViewModel.MyViewModels[1]));
             fragments.Add(new MvxCachingFragmentStatePagerAdapter.FragmentInfo(ViewModel.MyViewModels[2].Name, typeof(ChildFragment), ViewModel.MyViewModels[2]));
@@ -43,9 +44,9 @@ namespace Vilani.Xamarin.Droid.Views
 
             //If you want to start at specific tab
             //viewPager.SetCurrentItem(ViewModel.CurrentPage, false);
-            
-            TabNavigationHandler.MainTabLayout.SetupWithViewPager(viewPager);
 
+            TabNavigationHandler.MainTabLayout.SetupWithViewPager(viewPager);
+            
         }
 
         private void ViewModel_TabChanged(object sender, Vilani.Xamarin.Core.Comman.NavigationEventArgs navigationArgs)

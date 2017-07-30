@@ -33,6 +33,8 @@ namespace Vilani.Xamarin.Droid.Common
         {
             CurrentTab = MainTabLayout.GetTabAt(tabIndex);
             CurrentTab.Select();
+            CurrentTab.SetContentDescription("Test");
+
         }
 
         public void HandleAction(object sender, NavigationEventArgs actionArgs)
