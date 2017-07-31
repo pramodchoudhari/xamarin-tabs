@@ -28,7 +28,7 @@ namespace Vilani.Xamarin.Core.Service
                 client.DefaultRequestHeaders.IfModifiedSince = DateTime.UtcNow;
                 client.DefaultRequestHeaders.CacheControl.NoStore = true;
                 client.Timeout = new TimeSpan(0, 0, 30);
-                var request = "http://192.168.43.185/api/api/tables/1";
+                var request = "http://192.168.60.2/api/api/tables/1";
                 var response = await client.GetStringAsync(request);
                 return await DeserializeObjectAsync<List<TableVM>>(response);
             }

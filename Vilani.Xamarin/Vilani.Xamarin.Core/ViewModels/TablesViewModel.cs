@@ -50,7 +50,6 @@ namespace Vilani.Xamarin.Core.ViewModels
             {
                 table.onTableSelected += Table_onTableSelected;
             }
-
         }
 
         private void Table_onTableSelected(object sender, TableVM table)

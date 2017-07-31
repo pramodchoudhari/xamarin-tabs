@@ -4561,38 +4561,38 @@ namespace Vilani.Xamarin.Droid
 		public partial class Style
 		{
 			
+			// aapt resource value: 0x7f0a009d
+			public const int AlertDialog_AppCompat = 2131361949;
+			
+			// aapt resource value: 0x7f0a009e
+			public const int AlertDialog_AppCompat_Light = 2131361950;
+			
 			// aapt resource value: 0x7f0a009f
-			public const int AlertDialog_AppCompat = 2131361951;
+			public const int Animation_AppCompat_Dialog = 2131361951;
 			
 			// aapt resource value: 0x7f0a00a0
-			public const int AlertDialog_AppCompat_Light = 2131361952;
-			
-			// aapt resource value: 0x7f0a00a1
-			public const int Animation_AppCompat_Dialog = 2131361953;
-			
-			// aapt resource value: 0x7f0a00a2
-			public const int Animation_AppCompat_DropDownUp = 2131361954;
+			public const int Animation_AppCompat_DropDownUp = 2131361952;
 			
 			// aapt resource value: 0x7f0a0161
 			public const int Animation_Design_BottomSheetDialog = 2131362145;
 			
+			// aapt resource value: 0x7f0a00a1
+			public const int Base_AlertDialog_AppCompat = 2131361953;
+			
+			// aapt resource value: 0x7f0a00a2
+			public const int Base_AlertDialog_AppCompat_Light = 2131361954;
+			
 			// aapt resource value: 0x7f0a00a3
-			public const int Base_AlertDialog_AppCompat = 2131361955;
+			public const int Base_Animation_AppCompat_Dialog = 2131361955;
 			
 			// aapt resource value: 0x7f0a00a4
-			public const int Base_AlertDialog_AppCompat_Light = 2131361956;
+			public const int Base_Animation_AppCompat_DropDownUp = 2131361956;
 			
 			// aapt resource value: 0x7f0a00a5
-			public const int Base_Animation_AppCompat_Dialog = 2131361957;
+			public const int Base_DialogWindowTitle_AppCompat = 2131361957;
 			
 			// aapt resource value: 0x7f0a00a6
-			public const int Base_Animation_AppCompat_DropDownUp = 2131361958;
-			
-			// aapt resource value: 0x7f0a00a7
-			public const int Base_DialogWindowTitle_AppCompat = 2131361959;
-			
-			// aapt resource value: 0x7f0a00a8
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131361960;
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131361958;
 			
 			// aapt resource value: 0x7f0a003f
 			public const int Base_TextAppearance_AppCompat = 2131361855;
@@ -4648,8 +4648,8 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0a004c
 			public const int Base_TextAppearance_AppCompat_Menu = 2131361868;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131361961;
+			// aapt resource value: 0x7f0a00a7
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131361959;
 			
 			// aapt resource value: 0x7f0a004d
 			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131361869;
@@ -4699,11 +4699,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0a0058
 			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131361880;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131361947;
+			// aapt resource value: 0x7f0a00a8
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131361960;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131361948;
+			// aapt resource value: 0x7f0a00a9
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131361961;
 			
 			// aapt resource value: 0x7f0a0095
 			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131361941;
@@ -5071,11 +5071,11 @@ namespace Vilani.Xamarin.Droid
 			// aapt resource value: 0x7f0a0089
 			public const int Platform_V21_AppCompat_Light = 2131361929;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int Platform_V25_AppCompat = 2131361949;
+			// aapt resource value: 0x7f0a009b
+			public const int Platform_V25_AppCompat = 2131361947;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int Platform_V25_AppCompat_Light = 2131361950;
+			// aapt resource value: 0x7f0a009c
+			public const int Platform_V25_AppCompat_Light = 2131361948;
 			
 			// aapt resource value: 0x7f0a0022
 			public const int Platform_Widget_AppCompat_Spinner = 2131361826;

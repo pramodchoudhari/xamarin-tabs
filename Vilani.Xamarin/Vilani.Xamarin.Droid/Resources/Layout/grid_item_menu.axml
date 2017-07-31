@@ -5,30 +5,32 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:padding="5dp">
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="horizontal"
-        android:background="@drawable/button_style">
-        <Button
-            android:text="+"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/buttonAdd" />
-        <TextView
-            android:id="@+id/DepartureDateTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/buttoncolor"
-            android:textSize="17dp"
-            android:padding="10dp"
-            local:MvxBind="Text ProductItemName" />
-   
-     <Button
-            android:text="-"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/buttonRemove" />
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="horizontal"
+      android:background="@drawable/button_style">
+    <Button
+        android:text="+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonAdd"
+              local:MvxBind="Click MenuAddCommand;" />
+
+    <TextView
+        android:id="@+id/DepartureDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/buttoncolor"
+        android:textSize="17dp"
+        android:padding="10dp"
+        local:MvxBind="Text ProductItemName" />
+    <Button
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRemove"
+                  local:MvxBind="Click MenuRemoveCommand;" />
     <!--<ImageButton
             android:background="@drawable/link"
             android:layout_height="wrap_content"
@@ -36,5 +38,5 @@
             android:layout_marginLeft="10dp"
             android:id="@+id/link"
             local:MvxBind="LongClick TestCommand " />-->
-    </LinearLayout>
+  </LinearLayout>
 </RelativeLayout>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MvvmCross.Core.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace Vilani.Xamarin.Core.Model
 {
     public class MenuVM
     {
-    
+
         public int BillDetailsID { get; set; }
         public int SupplierBillID { get; set; }
         public int ProductItemID { get; set; }
@@ -62,5 +63,25 @@ namespace Vilani.Xamarin.Core.Model
         public bool IsDirty { get; set; }
 
         public bool? IsBypassPrinting { get; set; }
+
+        public delegate void MenuAdded(object sender, MenuVM menu);
+        public event MenuAdded onMenuAdded;
+
+
+        public delegate void MenuRemoved(object sender, MenuVM menu);
+        public event MenuRemoved onMenuRemoved;
+
+        public MvxCommand MenuAddCommand => new MvxCommand(OnMenuAdded);
+        public MvxCommand MenuRemoveCommand => new MvxCommand(OnMenuRemoved);
+
+        private void OnMenuRemoved()
+        {
+            this.onMenuRemoved(this, this);
+        }
+
+        private void OnMenuAdded()
+        {
+            this.onMenuAdded(this, this);
+        }
     }
 }
